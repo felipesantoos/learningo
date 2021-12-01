@@ -52,3 +52,12 @@
 - Expressão é qualquer coisa que produz um resutado.
 - Statement (declaração, afirmação): é uma instrução que gera uma ação. É formado por expressões.
 - Package level scope: escopo ao nível do pacote.
+
+# Var
+- Uma variável criada dentro de um codeblock é `undefined` em outro.
+- Variável package-level-scope são vistas por qualquer função pertencente ao pacote.
+
+# Tipos
+- Estáticos.
+- Pode ser deduzido pelo compilador ou declarado explicitamente.
+- Variáveis PLS não inicializadas só podem ser "atribuídas" dentro de um codeblock.
