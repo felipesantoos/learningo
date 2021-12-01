@@ -61,3 +61,21 @@
 - Estáticos.
 - Pode ser deduzido pelo compilador ou declarado explicitamente.
 - Variáveis PLS não inicializadas só podem ser "atribuídas" dentro de um codeblock.
+- Tipos de dados primitivos: int, float64, string e bool.
+- Tipos de dados compostos: array, slice, map e struct.
+- O ato de definir, criar e estruturar tipos compostos chama-se `composição`.
+
+# Valor zero
+- Declaração: criação da variável.
+- Inicialização: primeira atribuição de valor.
+- Atribuição: segunda e próximas atribuições.
+- int → 0
+- string → ""
+- float64 → 0
+- bool → false
+- Pointers, functions, interfaces, slices, channels, maps → nil.
+- Sempre que possível use :=.
+- Use var para PLS.
+- Caso uma variável não seja inicializada, ela conterá o valor zero do seu tipo.
+
+# O pacote fmt
