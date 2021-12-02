@@ -79,3 +79,18 @@
 - Caso uma variável não seja inicializada, ela conterá o valor zero do seu tipo.
 
 # O pacote fmt
+- Interpreted string literals.
+- Raw string literals.
+- Caracter = rune literals.
+- Funções que imprimem textos na tela: fmt.Print, fmt.Println e fmt.Printf.
+- Funções que retornam uma string: fmt.Sprint, fmt.Sprintln e fmt.Sprintf.
+- Funções para leitura de arquivos (e outras coisas): fmt.Fprint, fmt.Fprintln e fmt.Fprintf.
+
+# Tipos personalizados
+- Tipos são vida.
+- Os tipos da variáveis são fixos.
+- Podem criar nossos próprios tipos em Go.
+
+# Conversão
+- Não chame de casting ou coerção. Em Go é conversão!
+- type(value)
